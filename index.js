@@ -103,12 +103,3 @@ document.addEventListener('keydown', function(event) {
     const  klavesnice = event.key.toLowerCase();
     zmnena(klavesnice);
 });
-
-//4.)
-document.getElementById("myList").addEventListener("click", function(event) {
-    if (event.target.tagName === "LI") {
-        alert("Klikli jste na položku: " + event.target.textContent);
-    }
-});
-
-//5.)
