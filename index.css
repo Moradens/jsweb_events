@@ -1,0 +1,29 @@
+body{
+    color: black;
+    font-family: Arial;
+}
+
+.next{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    font-size: 16px;
+}
+.message {
+    color: red;
+    font-style: italic;
+}
+
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 50px auto;
+}
+
